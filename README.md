@@ -1,4 +1,4 @@
-# New-diversity-measurement
+# DIV* measurement
 
 The python code of diversity measurement proposed by Loet Leydesdorff
 
