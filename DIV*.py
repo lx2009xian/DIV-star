@@ -11,7 +11,7 @@ import pandas as pd
 # Calculate the variety
 data=pd.read_excel("C:/Users/86198/Desktop/three components/result.xlsx",header=0,index_col=0)
 data[data>1]=1 #In order to change the cell>1 to =1
-a=data[data>0].count()#count the number of item of given papers
+a=data[data>0].count()#count the number of non-empty item of given papers
 a=a.to_frame()
 
 
